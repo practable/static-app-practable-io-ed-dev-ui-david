@@ -7,10 +7,10 @@ The contents of this repo are mirrored on a google cloud instance `ed-dev-ui` th
 
 There are four directories that are accessible from the web: 
 
-`./ui` at `https://app.practable.io/ed-dev-ui/david/ui`
-`./config` at `https://app.practable.io/ed-dev-ui/david/config`
-`./images` at `https://app.practable.io/ed-dev-ui/david/images`
-`./info` at `https://app.practable.io/ed-dev-ui/david/info`
+- `./ui` at `https://app.practable.io/ed-dev-ui/david/ui`
+- `./config` at `https://app.practable.io/ed-dev-ui/david/config`
+- `./images` at `https://app.practable.io/ed-dev-ui/david/images`
+- `./info` at `https://app.practable.io/ed-dev-ui/david/info`
 
 Any other directories are not accessible from the web - if you need an additional directory/routing let sysadmin know.
 
