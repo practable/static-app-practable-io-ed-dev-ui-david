@@ -1,0 +1,75 @@
+{
+"name": "ed1", 
+"version": "1.0", 
+"date": 1720705810, 
+"aud": "https://app.practable.io/ed0/sfla-dashboard-default-2.0", 
+"images": [], 
+"parameters": {
+	"spinner":{
+		"tasks": [
+			{"readable_string": "Lab 1 Core", "code_string": "spinner-ed1-1-core"},
+			{"readable_string": "Lab 1 Extension", "code_string": "spinner-ed1-1-ext"},
+			{"readable_string": "Lab 1 Core + Ext.", "code_string": "spinner-ed1-1-core-ext"},
+			{"readable_string": "Lab 2", "code_string": "spinner-ed1-2"},
+			{"readable_string": "All tasks", "code_string": "spinner-ed1-all"}
+		],
+		"indicators": {
+			"total_edges": [
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0}
+			],
+			"exploration": [
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0}
+			]
+		},
+		"task_completion": [
+				{"comment": "Looks like you are closest to completing this task combination", "value": "completed"},
+				{"comment": "Good progress on this task", "value": 10},
+				{"comment": "Looks like you have started this task", "value": 20},
+				{"comment": "You have probably not sent some key control commands yet.", "value": 99},
+				{"comment": "Have you connected to the remote lab yet?", "value": "other" }
+			],
+		"max_task_completion_value": 100
+		},
+	"pendulum":{
+		"tasks": [
+			{"readable_string": "Lab 1 Core", "code_string": "pendulum-ed1-1-core"},
+			{"readable_string": "Lab 1 Extension", "code_string": "pendulum-ed1-1-ext"},
+			{"readable_string": "Lab 1 Core + Ext.", "code_string": "pendulum-ed1-1-core-ext"},
+			{"readable_string": "Lab 2", "code_string": "pendulum-ed1-2"},
+			{"readable_string": "All tasks", "code_string": "pendulum-ed1-all"}
+		],
+		"indicators": {
+			"total_edges": [
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0}
+			],
+			"exploration": [
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0}
+			]
+		
+		},
+		"task_completion": [
+				{"comment": "Looks like you are closest to completing this task combination", "value": "completed"},
+				{"comment": "Good progress on this task", "value": 10},
+				{"comment": "Looks like you have started this task", "value": 20},
+				{"comment": "You have probably not sent some key control commands yet.", "value": 100},
+				{"comment": "Have you connected to the remote lab yet?", "value": "NA"}
+			]
+		}
+	}
+}
