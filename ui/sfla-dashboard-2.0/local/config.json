@@ -22,11 +22,10 @@
 				{"comment": "", "value": 0}
 			],
 			"exploration": [
-				{"comment": "", "value": 0},
-				{"comment": "", "value": 0},
-				{"comment": "", "value": 0},
-				{"comment": "", "value": 0},
-				{"comment": "", "value": 0}
+				{"comment": "Wow, you have really tested the limits of the hardware!", "value": 100},
+				{"comment": "You have been exploring the behaviour of this hardware", "value": 50},
+				{"comment": "Looks like you have tried out other modes", "value": 10},
+				{"comment": "You have stuck close to the expected procedure", "value": 0}
 			]
 		},
 		"task_completion": [
@@ -55,11 +54,10 @@
 				{"comment": "", "value": 0}
 			],
 			"exploration": [
-				{"comment": "", "value": 0},
-				{"comment": "", "value": 0},
-				{"comment": "", "value": 0},
-				{"comment": "", "value": 0},
-				{"comment": "", "value": 0}
+				{"comment": "Wow, you have really tested the limits of the hardware!", "value": 100},
+				{"comment": "You have been exploring the behaviour of this hardware", "value": 50},
+				{"comment": "Looks like you have tried out other modes", "value": 10},
+				{"comment": "You have stuck close to the expected procedure", "value": 0}
 			]
 		
 		},
