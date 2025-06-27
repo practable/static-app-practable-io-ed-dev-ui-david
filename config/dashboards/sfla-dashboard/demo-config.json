@@ -1,0 +1,40 @@
+{
+"name": "demo", 
+"version": "1.0", 
+"date": 1751017686, 
+"aud": "https://app.practable.io/ed0/sfla-dashboard-2.0", 
+"images": [], 
+"parameters": {
+	"spinner":{
+		"tasks": [
+			{"readable_string": "Task 1", "code_string": "spinner-demo-T1"},
+			{"readable_string": "Task 2", "code_string": "spinner-demo-T2"},
+			{"readable_string": "All", "code_string": "spinner-demo-TALL"},
+		],
+		"indicators": {
+			"total_edges": [
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0}
+			],
+			"exploration": [
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0}
+			]
+		},
+		"task_completion": [
+				{"comment": "Looks like you are closest to completing this task combination", "value": "completed"},
+				{"comment": "Good progress on this task", "value": 10},
+				{"comment": "Looks like you have started this task", "value": 20},
+				{"comment": "You have probably not sent some key control commands yet.", "value": 99},
+				{"comment": "Have you connected to the remote lab yet?", "value": "other" }
+			],
+		"max_task_completion_value": 100
+		},
+	}
+}
