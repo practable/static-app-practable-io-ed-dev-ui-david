@@ -6,6 +6,14 @@
 "images": [], 
 "parameters": {
 	"spinner":{
+		"nodes": [
+			{"label": "voltage_step", "x": 0.5, "y": -0.865},
+			{"label": "voltage_ramp", "x": -0.5, "y": -0.865},
+			{"label": "position_step", "x": 1, "y": 0},
+			{"label": "position_ramp", "x": -1, "y": 0},
+			{"label": "speed_step", "x": 0.5, "y": 0.865},
+			{"label": "speed_ramp", "x": -0.5, "y": 0.865}
+		],
 		"tasks": [
 			{"readable_string": "Lab 1 Core", "code_string": "spinner-ed1-1-core"},
 			{"readable_string": "Lab 1 Extension", "code_string": "spinner-ed1-1-ext"},
@@ -38,6 +46,17 @@
 		"max_task_completion_value": 100
 		},
 	"pendulum":{
+		"nodes": [
+			{"label": "start", "x": 0, "y": 1},
+			{"label": "brake", "x": 0.64, "y": 0.77},
+			{"label": "free", "x": 0.98, "y": 0.17},
+			{"label": "load", "x": 0.87, "y": -0.5},
+			{"label": "sampling", "x": 0.34, "y": -0.94},
+			{"label": "drive_perc", "x": -0.34, "y": -0.94},
+			{"label": "brake_perc", "x": -0.87, "y": -0.5},
+			{"label": "measuring_tools", "x": -0.98, "y": 0.17},
+			{"label": "record", "x": -0.64, "y": -0.77}
+		],
 		"tasks": [
 			{"readable_string": "Lab 1 Core", "code_string": "pendulum-ed1-1-core"},
 			{"readable_string": "Lab 1 Extension", "code_string": "pendulum-ed1-1-ext"},
