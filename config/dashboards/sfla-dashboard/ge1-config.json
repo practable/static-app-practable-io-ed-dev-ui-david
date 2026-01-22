@@ -2,10 +2,18 @@
 "name": "ge1", 
 "version": "1.0", 
 "date": 1769091627, 
-"aud": "https://app.practable.io/ed0/sfla-dashboard-default-2.0", 
+"aud": "https://app.practable.io/ed0/sfla-dashboard-2.0", 
 "images": [], 
 "parameters": {
 	"spinner":{
+		"nodes": [
+			{"label": "voltage_step", "x": 0.5, "y": -0.865},
+			{"label": "voltage_ramp", "x": -0.5, "y": -0.865},
+			{"label": "position_step", "x": 1, "y": 0},
+			{"label": "position_ramp", "x": -1, "y": 0},
+			{"label": "speed_step", "x": 0.5, "y": 0.865},
+			{"label": "speed_ramp", "x": -0.5, "y": 0.865}
+		],
 		"tasks": [
 			{"readable_string": "W1 Task 1", "code_string": "spinner-ge1-W1T1"},
 			{"readable_string": "W1 Task 2", "code_string": "spinner-ge1-W1T2"},
@@ -38,6 +46,17 @@
 		"max_task_completion_value": 100
 		},
 	"pendulum":{
+		"nodes": [
+			{"label": "start", "x": 0, "y": 1},
+			{"label": "brake", "x": 0.64, "y": 0.77},
+			{"label": "free", "x": 0.98, "y": 0.17},
+			{"label": "load", "x": 0.87, "y": -0.5},
+			{"label": "sampling", "x": 0.34, "y": -0.94},
+			{"label": "drive_perc", "x": -0.34, "y": -0.94},
+			{"label": "brake_perc", "x": -0.87, "y": -0.5},
+			{"label": "measuring_tools", "x": -0.98, "y": 0.17},
+			{"label": "record", "x": -0.64, "y": -0.77}
+		],
 		"tasks": [
 			{"readable_string": "W1 Task 1", "code_string": "pendulum-ge1-W1T1"},
 			{"readable_string": "W1 Task 2", "code_string": "pendulum-ge1-W1T2"},
@@ -60,15 +79,15 @@
 				{"comment": "", "value": 0},
 				{"comment": "", "value": 0}
 			]
-		
 		},
 		"task_completion": [
 				{"comment": "Looks like you are closest to completing this task combination", "value": "completed"},
 				{"comment": "Good progress on this task", "value": 10},
 				{"comment": "Looks like you have started this task", "value": 20},
-				{"comment": "You have probably not sent some key control commands yet.", "value": 100},
-				{"comment": "Have you connected to the remote lab yet?", "value": "NA"}
-			]
+				{"comment": "You have probably not sent some key control commands yet.", "value": 99},
+				{"comment": "Have you connected to the remote lab yet?", "value": "other" }
+			],
+		"max_task_completion_value": 100
 		}
 	}
 }

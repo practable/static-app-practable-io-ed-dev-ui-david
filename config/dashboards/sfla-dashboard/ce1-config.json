@@ -2,10 +2,18 @@
 "name": "ce1", 
 "version": "1.0", 
 "date": 1769091627, 
-"aud": "https://app.practable.io/ed0/sfla-dashboard-default-2.0", 
+"aud": "https://app.practable.io/ed0/sfla-dashboard-2.0", 
 "images": [], 
 "parameters": {
 	"stirring":{
+		"nodes": [
+			{"label": "decrease_speed", "x": 0.5, "y": -0.865},
+			{"label": "increase_speed", "x": -0.5, "y": -0.865},
+			{"label": "change_speed", "x": 1, "y": 0},
+			{"label": "stop", "x": -1, "y": 0},
+			{"label": "update_displacement", "x": 0.5, "y": 0.865},
+			{"label": "record", "x": -0.5, "y": 0.865}
+		],
 		"tasks": [
 			{"readable_string": "Workshop", "code_string": "stirring-ce1-all"}
 		],
