@@ -1,0 +1,48 @@
+{
+"name": "etm2", 
+"version": "1.0", 
+"date": 1772099842, 
+"aud": "https://app.practable.io/ed0/tfla-dashboard-default-1.0", 
+"images": [], 
+"parameters": {
+	"fridge":{
+		"nodes": [
+			{"label": "valveOne", "x": 0.5, "y": 0.5},
+			{"label": "valveFive", "x": 1, "y": 0},
+			{"label": "valveSix", "x": 0.5, "y": -0.5},
+			{"label": "fans", "x": 0, "y": -1},
+			{"label": "compressor", "x": -0.5, "y": -0.5},
+			{"label": "record", "x": 0, "y": -1},
+			{"label": "download", "x": -0.5, "y": 0.5}
+		],
+		"tasks": [
+			{"readable_string": "Control", "code_string": "fridge-etm2-control"},
+			{"readable_string": "Data", "code_string": "fridge-etm2-data"},
+			{"readable_string": "CohortAvg", "code_string": "fridge-etm2-average"}
+		],
+		"indicators": {
+			"total_edges": [
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0},
+				{"comment": "", "value": 0}
+			],
+			"exploration": [
+				{"comment": "Wow, you have really tested the limits of the hardware!", "value": 100},
+				{"comment": "You have been exploring the behaviour of this hardware", "value": 50},
+				{"comment": "Looks like you have tried out other modes", "value": 10},
+				{"comment": "You have stuck close to the expected procedure", "value": 0}
+			]
+		},
+		"task_completion": [
+				{"comment": "Looks like you are closest to completing this task combination", "value": "completed"},
+				{"comment": "Good progress on this task", "value": 10},
+				{"comment": "Looks like you have started this task", "value": 20},
+				{"comment": "You have probably not sent some key control commands yet.", "value": 99},
+				{"comment": "Have you connected to the remote lab yet?", "value": "other" }
+			],
+		"max_task_completion_value": 100
+		}
+	}
+}
